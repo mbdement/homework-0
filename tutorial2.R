@@ -36,3 +36,11 @@ message <- paste(greeting, name)
 
 result  <- 4< 5
 typeof(result)
+
+result2 <- !(5>1)
+result2
+
+result | result2   # | means "or", that is at leas one of those have to be TRUE
+result & result2   # & stands for "and" , that is both of the arguments have to be true
+
+isTRUE(result) # returns answer to the question "if the argument true?"
